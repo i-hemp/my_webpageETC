@@ -4,9 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    
   </head>
   <body>
     <p>Successfully logged in!</p>
+    <div id="output">
+
+    </div>
     <br /><br />
+    <script>
+      var output = document.getElementById('output');
+      var el =document.createElement('h1')
+      el.textContent='Hello I\'m devops';
+
+      output.appendChild(el);
+    </script>
   </body>
 </html>
