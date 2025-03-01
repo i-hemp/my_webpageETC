@@ -1,0 +1,12 @@
+#loading{
+    color: grey;
+}
+
+body{
+    background-color: palegreen;
+    color: rgb(65, 5, 5);
+}
+#submit-btn:hover{
+    transform: scale(1.2);
+cursor: pointer;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <label for="username">Username: </label>
+      <input type="text" name="username" id="username" required/>
+      <br />
+      <br />
+      <label for="password">Password: </label>
+      <input type="text" name="password" id="password" required/>
+      <br /><br />
+      <input type="button" value="Submit" onclick="verify()" id="submit-btn"/>
+
+      <p id="loading">loading....</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
