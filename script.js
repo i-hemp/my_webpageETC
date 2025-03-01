@@ -3,9 +3,9 @@ function verify() {
   var passWord = document.getElementById("password").value;
   if (
     userName !== null &&
-    userName !== "h" &&
+    userName !== "FEB" &&
     passWord !== null &&
-    passWord !== "1"
+    passWord !== "19"
   ) {
     window.location.href = "logged_out.html";
   } else {
