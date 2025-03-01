@@ -1,0 +1,56 @@
+
+<html>
+    <head>
+        <title>
+            login Page
+        </title>
+    </head>
+    <body>
+        <div>
+            <p3>
+                Username
+            </p3>
+            <input type="text" name="username" id="user">
+          
+            <br>
+
+            <p>
+                Password   
+                <input type="text" name="password" id="pwd">
+            </p>
+
+            <button onclick="storeInput()">Submit</button>
+            <p id="output"></p>
+        </div>
+
+        <script>
+            function storeInput() {
+                let username = document.getElementById("user").value;
+                let pwd = document.getElementById("pwd").value;
+                
+                if(username=="Josh"&&pwd=="123"){
+                    window.location.href = "logged_in.html?data=";                    
+                }
+                else if(username=="shanz"&&pwd=="tiger")
+                {
+                    window.location.href = "logged_in.html?data=";   
+                }
+                else if (username=="adhi" && pwd=="poda"){
+                window.location.href = "logged_in.html?data=";   
+                }
+                else if(username="maadu"&&pwd=="moooo")
+                {
+                    window.location.href = "logged_in.html?data=";   
+                }
+    
+                else if(username=="Josh" || username=="shanz" ||username=="adhi"|| username=="maadu"){
+                    window.location.href = "Wrong_Password.html?data=";                  
+                }
+                else{
+                    window.location.href = "Wrong_Username.html?data=";
+                }
+            }
+        </script>
+    </body>
+
+</html>
